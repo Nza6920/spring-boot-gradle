@@ -1,0 +1,1 @@
+ALTER TABLE `car` ADD COLUMN `last_audit_time` datetime NULL COMMENT '上次年审时间' AFTER `type`;
